@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-os.environ['GOOGLE_API_KEY'] = "AIzaSyDqYv-TEj6YmTHjJmZnXYbcbduf3tFwpfk"
+os.environ['GOOGLE_API_KEY'] = "***********************************"
 
 class Settings:
     GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
